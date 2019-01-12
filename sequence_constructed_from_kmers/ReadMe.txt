@@ -1,0 +1,3 @@
+Current sequencing methods cannot sequence an entire gene in a single read. It is up to computational biologist to assemble these shorter reads together into a single gene. This program is created for simplified version of this problem; it assumes the kmers have no misreads, indels, or repeats. 
+
+To assemble the kmers into a single sequence, the program creates a De Bruijn graph of all the kmers, then creates an Eularian cycle, then finds a path through the Eularian cycle that traverses every node on the graph once, and finally joins each node in the path into a sequence.

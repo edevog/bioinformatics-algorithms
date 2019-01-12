@@ -1,0 +1,6 @@
+One of the recurring problems in molecular biology is understanding gene expression and its associated regulatory mechanisms. A key step toward resolving this problem is to identify the promoter of a gene so one can then determine if and when transcription is initiated. These promoter sequences can be identified in silico with no prior knowledge of transcription factor-binding sites by finding conserved regions between multiple promoters. The current computational methods either use sequence alignment or statistical analysis of the abundance of short sequences to identify over-represented motifs---this program employs the latter method.
+
+This program identifies the promoter motif from a FASTA file containing multiple promoter sequences based on the assumption that it is the motif from the motif matrix with the lowest entropy. The program will output the promoter motif and its entropy score.
+
+References:
+Hudson, M. E. “Identification of Promoter Motifs Involved in the Network of Phytochrome A-Regulated Gene Expression by Combined Analysis of Genomic Sequence and Microarray Data.” Plant Physiology, vol. 133, no. 4, Dec. 2003, pp. 1605–1616., doi:10.1104/pp.103.030437.

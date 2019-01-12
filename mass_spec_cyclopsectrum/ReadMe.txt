@@ -1,0 +1,3 @@
+Mass spectrometers are used to sequence peptides based on the weights of fragments of the peptides. These programs can be used to process the raw weight measurements to sequence the peptides.
+
+"find_cyclospectrum_of_peptide" is used to find the cyclospectrum of a given peptide and "find_peptide_from_cyclospectrum" is used to find all of the unique mass profiles of the peptides whose cyclospectrum is within the given spectrum.
