@@ -9,3 +9,13 @@ These files comprise some of the bioinformatics algorithms work I have done. Bel
 <b>machine_learning</b>
 * Implements a hidden Markov model to find the hidden path of a sequencing and its probability of occuring
 * Employs Viterbi and Baum-Welch learning to find the emission and transition probabilities of a hidden Markov model
+
+<b>mass_spec_cyclospectrum</b>
+* Determines the cyclospectrum of a peptide
+* Identifies all potential peptides from a spectrum
+
+<b>sequence_constructed_from_kmers</b>
+* Assembles kmers into a sequence by finding the Eularian path through a De Bruijn graph
+
+<b>statistical_representation_of_motifs</b>
+* Calculates the statistical significance of all motifs in a sequence
