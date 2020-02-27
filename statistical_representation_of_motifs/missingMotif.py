@@ -139,7 +139,7 @@ class KmerData(object):
         from the sequence matches a kmer in the dictionary
         '''
         for k in range(self.kmerMin, self.kmerMax + 1):
-            for i in range(len(seq) - self.kmerMax + 1):
+            for i in range(len(seq) - k + 1):
                 kmerFromSeq = (seq[i:i+k])
                 try:
                     if kmerFromSeq in self.kmerDict.keys():
